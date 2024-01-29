@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6543946b.css",
+    "main.js": "/static/js/main.33fe26f4.js",
+    "static/js/787.a039de69.chunk.js": "/static/js/787.a039de69.chunk.js",
+    "static/media/FONDO AZUL CLARO 2.png": "/static/media/FONDO AZUL CLARO 2.ebe11cb224bf641cc5e2.png",
+    "static/media/AMARILLO DE FONDO.png": "/static/media/AMARILLO DE FONDO.75731df3417f238d6ab4.png",
+    "static/media/FONDO AZUL CLARO.png": "/static/media/FONDO AZUL CLARO.86f597dbfb5a94301953.png",
+    "static/media/FONDO ROJO.png": "/static/media/FONDO ROJO.e27fd958aad7d394e76a.png",
+    "static/media/NEGRO DE FONDO.png": "/static/media/NEGRO DE FONDO.cf388f25e33b84475a4a.png",
+    "static/media/FONDO AZUL MARINO.png": "/static/media/FONDO AZUL MARINO.c143f2f8b2dfeea36d8a.png",
+    "static/media/BLANCO DE FONDO.png": "/static/media/BLANCO DE FONDO.b921312836d3fb2b5003.png",
+    "static/media/CarbonBlock.ttf": "/static/media/CarbonBlock.37ff3db76e93486e768c.ttf",
+    "static/media/trash_white.svg": "/static/media/trash_white.ba028a1b1e08d523d0ef85777f29ab5a.svg",
+    "static/media/add_yellow.svg": "/static/media/add_yellow.fa9ab7109831d10dad2af37731e6a52c.svg",
+    "index.html": "/index.html",
+    "main.6543946b.css.map": "/static/css/main.6543946b.css.map",
+    "main.33fe26f4.js.map": "/static/js/main.33fe26f4.js.map",
+    "787.a039de69.chunk.js.map": "/static/js/787.a039de69.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6543946b.css",
+    "static/js/main.33fe26f4.js"
+  ]
+}
