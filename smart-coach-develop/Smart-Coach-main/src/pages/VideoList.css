@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'CarbonBlock';
+  src: url('/public/fonts/CarbonBlock.ttf') format('truetype');
+}
+
+/* Customize Themes */
+.list-view {
+  padding: 0 5vw;
+  min-height: 100vh;
+}
+
+.view--yellow .drag-drop {
+  border: 4px dashed black;
+}
+
+.view--black .drag-drop {
+  border: 4px dashed #ffcc04;
+  color: whitesmoke;
+}
+
+.view--white .drag-drop {
+  border: 4px dashed #1e2177;
+  color: #1e2177;
+}
+
+.video {
+  cursor: pointer;
+
+}
+
+.video-list {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 2vw;
+  
+  padding: 1rem;
+}
+
+.drag-drop {
+  margin-top: 3vw;
+  margin-bottom: 1vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3.5vw;
+  font-family: 'CarbonBlock';
+  height: 15vw;
+  cursor: pointer;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+  .video-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

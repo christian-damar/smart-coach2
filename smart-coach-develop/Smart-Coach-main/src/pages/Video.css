@@ -1,0 +1,34 @@
+video {
+  background-color: gray;
+}
+.cuerpo {
+  position: relative;
+}
+
+#imagen {
+  pointer-events: none;
+}
+canvas,
+video,
+#imagen {
+  position: absolute;
+}
+video {
+  width: 145vh;
+}
+.color {
+  visibility: visible;
+  margin: auto;
+  border-radius: 100%;
+  height: 55px;
+  width: 55px;
+}
+
+.opciones {
+  visibility: hidden;
+  height: 55px;
+  width: 55px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 100%;
+}

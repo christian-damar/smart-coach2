@@ -1,0 +1,130 @@
+/*importa el font*/
+@font-face {
+  font-family: "CarbonBlock";
+  src: url("/public/fonts/CarbonBlock.ttf") format("truetype");
+}
+
+/*background lo hace la foto*/
+.background-container {
+  background-image: url("/public/background/AMARILLO DE FONDO.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*Quita decoraciones a los links de los botones*/
+.Link {
+  color: inherit;
+  text-decoration: none;
+}
+
+/*Estilo de los titulos*/
+.title {
+  font-family: "CarbonBlock";
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 7vw;
+}
+.title2 {
+  font-family: "CarbonBlock";
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 2.9vw;
+  margin-bottom: 2vw;
+}
+
+/*Hace que los logos y botones estén de los dos lados*/
+
+.header {
+  width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 1rem;
+
+}
+
+.header-logo img {
+  width: 10rem;
+  height: 10rem;
+}
+
+/* Estilo de los botones */
+
+.nav-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 2vw;
+
+  padding: 2rem;
+}
+
+.nav-button {
+  background-color: transparent;
+  border: none;
+}
+
+.nav-option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  transition: 0.3s ease-in-out;
+  scale: 1;
+}
+
+.nav-option:hover {
+  transition: 0.3s ease-in-out;
+  scale: 1.1;
+  cursor: pointer;
+}
+
+.nav-text {
+  font-family: "CarbonBlock";
+  font-size: 1.5rem;
+  vertical-align: middle;
+}
+
+.nav-button-image {
+  height: 8rem;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+  .header-logo img {
+    width: 5rem;
+    height: 5rem;
+  }
+  .title {
+    font-size: 10vw;
+  }
+  .title2 {
+    font-size: 5vw;
+  }
+  .header-logo img {
+    width: 20vw;
+  }
+  .nav-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .nav-button-image {
+    height: 5rem;
+  }
+  .nav-text {
+    font-size: 1rem;
+  }
+}
+
+#logo_navigation {
+  max-width: 40%;
+  max-width: 100%;
+}

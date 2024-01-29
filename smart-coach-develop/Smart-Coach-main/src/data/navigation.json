@@ -1,0 +1,352 @@
+{
+  "scout": {
+    "title": "video scout",
+    "theme": "yellow",
+    "items": [
+      {
+        "category": "ofensa",
+        "image": "Logos/VideoScout/video scout ofensa.png",
+        "target": "ofensa"
+      },
+      {
+        "category": "defensa",
+        "image": "Logos/VideoScout/video scout defensa.png",
+        "target": "defensa"
+      },
+      {
+        "category": "equipos especiales",
+        "image": "Logos/VideoScout/video scout equipos especiales.png",
+        "target": "especiales"
+      }
+    ]
+  },
+
+  "steelers": {
+    "title": "video steelers",
+    "theme": "black",
+    "items": [
+      {
+        "category": "ofensa",
+        "image": "Logos/VideoSteelers/video steelers ofensa.png",
+        "target": "ofensa"
+      },
+      {
+        "category": "defensa",
+        "image": "Logos/VideoSteelers/video steelers defensa.png",
+        "target": "defensa"
+      },
+      {
+        "category": "equipos especiales",
+        "image": "Logos/VideoSteelers/video steelers equipos especiales.png",
+        "target": "especiales"
+      }
+    ]
+  },
+
+  "ofensa": {
+    "title": "ofensa",
+    "theme": "parent",
+    "items": [
+      {
+        "category": "corrida izq",
+        "image": "/Logos/VideoScout/video scout ofensa corrida izq.png",
+        "image2": "/Logos/VideoSteelers/video steelers ofensa corrida izq.png",
+        "target": "/videos?equipo=scout&categoria=ofensa&tipo=corrida-izq",
+        "target2": "/videos?equipo=steelers&categoria=ofensa&tipo=corrida-izq"
+      },
+      {
+        "category": "corrida centro",
+        "image": "/Logos/VideoScout/video scout ofensa corrida centro.png",
+        "image2": "/Logos/VideoSteelers/video steelers ofensa corrida centro.png",
+        "target": "/videos?equipo=scout&categoria=ofensa&tipo=corrida-centro",
+        "target2": "/videos?equipo=steelers&categoria=ofensa&tipo=corrida-centro"
+      },
+      {
+        "category": "corrida derecha",
+        "image": "/Logos/VideoScout/video scout ofensa corrida derecha.png",
+        "image2": "/Logos/VideoSteelers/video steelers ofensa corrida derecha.png",
+        "target": "/videos?equipo=scout&categoria=ofensa&tipo=corrida-derecha",
+        "target2": "/videos?equipo=steelers&categoria=ofensa&tipo=corrida-derecha"
+      },
+      {
+        "category": "pase izq",
+        "image": "/Logos/VideoScout/video scout ofensa pase izq.png",
+        "image2": "/Logos/VideoSteelers/video steelers ofensa pase izq.png",
+        "target": "/videos?equipo=scout&categoria=ofensa&tipo=pase-izq",
+        "target2": "/videos?equipo=steelers&categoria=ofensa&tipo=pase-izq"
+      },
+      {
+        "category": "pase centro",
+        "image": "/Logos/VideoScout/video scout ofensa pase centro.png",
+        "image2": "/Logos/VideoSteelers/video steelers ofensa pase centro.png",
+        "target": "/videos?equipo=scout&categoria=ofensa&tipo=pase-centro",
+        "target2": "/videos?equipo=steelers&categoria=ofensa&tipo=pase-centro"
+      },
+      {
+        "category": "pase derecha",
+        "image": "/Logos/VideoScout/video scout ofensa pase derecho.png",
+        "image2": "/Logos/VideoSteelers/video steelers ofensa pase derecha.png",
+        "target": "/videos?equipo=scout&categoria=ofensa&tipo=pase-derecha",
+        "target2": "/videos?equipo=steelers&categoria=ofensa&tipo=pase-derecha"
+      }
+    ]
+  },
+
+  "defensa": {
+    "title": "defensa",
+    "theme": "parent",
+    "items": [
+      {
+        "category": "corrida izq",
+        "image": "/Logos/VideoScout/video scout defensa corrida izquierda.png",
+        "image2": "/Logos/VideoSteelers/video steelers defensa corrida izq.png",
+        "target": "/videos?equipo=scout&categoria=defensa&tipo=corrida-izq",
+        "target2": "/videos?equipo=steelers&categoria=defensa&tipo=corrida-izq"
+      },
+      {
+        "category": "corrida centro",
+        "image": "/Logos/VideoScout/video scout defensa corrida centro.png",
+        "image2": "/Logos/VideoSteelers/video steelers defensa corrida centro.png",
+        "target": "/videos?equipo=scout&categoria=defensa&tipo=corrida-centro",
+        "target2": "/videos?equipo=steelers&categoria=defensa&tipo=corrida-centro"
+      },
+      {
+        "category": "corrida derecha",
+        "image": "/Logos/VideoScout/video scout defensa corrida derecha.png",
+        "image2": "/Logos/VideoSteelers/video steelers defensa corrida derecha.png",
+        "target": "/videos?equipo=scout&categoria=defensa&tipo=corrida-derecha",
+        "target2": "/videos?equipo=steelers&categoria=defensa&tipo=corrida-derecha"
+      },
+      {
+        "category": "pase izq",
+        "image": "/Logos/VideoScout/video scout defensa pase izquierdo.png",
+        "image2": "/Logos/VideoSteelers/video steelers defensa pase izq.png",
+        "target": "/videos?equipo=scout&categoria=defensa&tipo=pase-izq",
+        "target2": "/videos?equipo=steelers&categoria=defensa&tipo=pase-izq"
+      },
+      {
+        "category": "pase centro",
+        "image": "/Logos/VideoScout/video scout defensa pase centro.png",
+        "image2": "/Logos/VideoSteelers/video steeles defensa pase centro.png",
+        "target": "/videos?equipo=scout&categoria=defensa&tipo=pase-centro",
+        "target2": "/videos?equipo=steelers&categoria=defensa&tipo=pase-centro"
+      },
+      {
+        "category": "pase derecha",
+        "image": "/Logos/VideoScout/video scout defensa pase derecho.png",
+        "image2": "/Logos/VideoSteelers/video steelers defensa pase derecho.png",
+        "target": "/videos?equipo=scout&categoria=defensa&tipo=pase-derecha",
+        "target2": "/videos?equipo=steelers&categoria=defensa&tipo=pase-derecha"
+      }
+    ]
+  },
+
+  "especiales": {
+    "title": "equipos especiales",
+    "theme": "parent",
+    "items": [
+      {
+        "category": "kick off",
+        "image": "/Logos/VideoScout/video scout equipos esp kick off.png",
+        "image2": "/Logos/VideoSteelers/video steelers equipos esp kick off.png",
+        "target": "/videos?equipo=scout&categoria=especiales&tipo=kick-off",
+        "target2": "/videos?equipo=steelers&categoria=especiales&tipo=kick-off"
+      },
+      {
+        "category": "kick off return",
+        "image": "/Logos/VideoScout/video scout equipos esp kick off return.png",
+        "image2": "/Logos/VideoSteelers/video steelers equipos esp kick off return.png",
+        "target": "/videos?equipo=scout&categoria=especiales&tipo=kick-off-return",
+        "target2": "/videos?equipo=steelers&categoria=especiales&tipo=kick-off-return"
+      },
+      {
+        "category": "patada de despeje",
+        "image": "/Logos/VideoScout/video scout equipos esp patada de despeje.png",
+        "image2": "/Logos/VideoSteelers/video steelers equipos esp patada de despeje.png",
+        "target": "/videos?equipo=scout&categoria=especiales&tipo=patada-de-despeje",
+        "target2": "/videos?equipo=steelers&categoria=especiales&tipo=patada-de-despeje"
+      },
+      {
+        "category": "regreso de despeje",
+        "image": "/Logos/VideoScout/video scout equipos esp regreso de despeje.png",
+        "image2": "/Logos/VideoSteelers/vidieo steelers equipos esp regreso de despeje.png",
+        "target": "/videos?equipo=scout&categoria=especiales&tipo=regreso-de-despeje",
+        "target2": "/videos?equipo=steelers&categoria=especiales&tipo=regreso-de-despeje"
+      },
+      {
+        "category": "punto extra y gol de campo",
+        "image": "/Logos/VideoScout/video scout equipos esp punto extra y gol de campo.png",
+        "image2": "/Logos/VideoSteelers/video steelers equipos especiales punto extra y gol de campo.png",
+        "target": "/videos?equipo=scout&categoria=especiales&tipo=punto-extra",
+        "target2": "/videos?equipo=steelers&categoria=especiales&tipo=punto-extra"
+      },
+      {
+        "category": "jugada de engaño",
+        "image": "/Logos/VideoScout/video scout equipos esp jugada de engaño.png",
+        "image2": "/Logos/VideoSteelers/video steelers equipos especiales jugada de engaño.png",
+        "target": "/videos?equipo=scout&categoria=especiales&tipo=jugada-de-engaño",
+        "target2": "/videos?equipo=steelers&categoria=especiales&tipo=jugada-de-engaño"
+      }
+    ]
+  },
+
+  "drills": {
+    "title": "drills de posición",
+    "theme": "white",
+    "columns": 4,
+    "items": [
+      {
+        "category": "linea ofensiva",
+        "image": "/Logos/drills/drill de posicion linea ofensiva.png",
+        "target": "/videos?equipo=drills&categoria=linea ofensiva"
+      },
+      {
+        "category": "corredores",
+        "image": "/Logos/drills/DRILLS DE POSICION CORREDORES.png",
+        "target": "/videos?equipo=drills&categoria=corredores"
+      },
+      {
+        "category": "qb",
+        "image": "/Logos/drills/DRILLS DE POSICION Q BACK.png",
+        "target": "/videos?equipo=drills&categoria=qb"
+      },
+      {
+        "category": "receptores y alas c.",
+        "image": "/Logos/drills/DRILLS DE POSICION RECEPTORES Y ALAS C..png",
+        "target": "/videos?equipo=drills&categoria=receptores y alas c"
+      },
+      {
+        "category": "linea defensiva",
+        "image": "/Logos/drills/DRILLS DE POSICION LINEA DEFENSIVA.png",
+        "target": "/videos?equipo=drills&categoria=linea defensiva"
+      },
+      {
+        "category": "linebackers",
+        "image": "/Logos/drills/DRILLS DE POSICION LINEBACKERS.png",
+        "target": "/videos?equipo=drills&categoria=linebackers"
+      },
+      {
+        "category": "perimetro",
+        "image": "/Logos/drills/DRILLS DE POSICION PERIMETRO.png",
+        "target": "/videos?equipo=drills&categoria=perimetro"
+      },
+      {
+        "category": "pateadores",
+        "image": "/Logos/drills/DRILLS DE POSICION PATEADORES.png",
+        "target": "/videos?equipo=drills&categoria=pateadores"
+      }
+    ]
+  },
+
+  "acondicionamiento": {
+    "title": "acondicionamiento físico",
+    "theme": "red",
+    "columns": 4,
+    "items": [
+      {
+        "category": "flag",
+        "image": "/Logos/acond/ACONDICIONAMIENTO FISICO FLAG.png",
+        "target": "/videos?equipo=acondicionamiento físico&categoria=flag"
+      },
+      {
+        "category": "infantiles chicas",
+        "image": "/Logos/acond/ACONDICIONAMIENTO FISICO INFANTILES CHICAS.png",
+        "target": "/videos?equipo=acondicionamiento físico&categoria=infantiles chicas"
+      },
+      {
+        "category": "infantiles grandes",
+        "image": "/Logos/acond/ACONDICIONAMIENTO FISICO INFANTILES GRANDES.png",
+        "target": "/videos?equipo=acondicionamiento físico&categoria=infantiles grandes"
+      },
+      {
+        "category": "juvenil",
+        "image": "/Logos/acond/ACONDICIONAMIENTO FISICO JUVENIL.png",
+        "target": "/videos?equipo=acondicionamiento físico&categoria=juvenil"
+      }
+    ]
+  },
+
+  "playbook": {
+    "title": "playbook",
+    "theme": "blue",
+    "columns": 4,
+    "items": [
+      {
+        "category": "corridas",
+        "image": "/Logos/playbook/___/corridas.png",
+        "target": "baby"
+      },
+      {
+        "category": "defensa",
+        "image": "/Logos/playbook/___/defensa.png",
+        "target": "flag"
+      },
+      {
+        "category": "equipos especiales",
+        "image": "/Logos/playbook/___/equipos especiales.png",
+        "target": "infantil1"
+      },
+      {
+        "category": "pases",
+        "image": "/Logos/playbook/___/pases.png",
+        "target": "especiales"
+      }
+    ]
+  },
+
+  "coaches": {
+    "title": "documentos coaches",
+    "theme": "light-blue",
+    "columns": 4,
+    "items": [
+      {
+        "category": "reglamentos coaches",
+        "image": "/Logos/docCoaches/DOCUMENTOS COACHES REGLAMENTO COACHES.png",
+        "target": "/documentos?equipo=coaches&categoria=reglamentos-coaches"
+      },
+      {
+        "category": "formatos coaches",
+        "image": "/Logos/docCoaches/DOCUMENTOS COACHES FORMATOS COACHES.png",
+        "target": "/documentos?equipo=coaches&categoria=formatos-coaches"
+      },
+      {
+        "category": "reglamento onefa",
+        "image": "/Logos/docCoaches/DOCUMENTOS COACHES REGLAMENTOS ONEFA.png",
+        "target": "/documentos?equipo=coaches&categoria=reglamento-onefa"
+      },
+      {
+        "category": "reglamento ofamo",
+        "image": "/Logos/docCoaches/DOCUMENTOS COACHES REGLAMENTOS OFAMO.png",
+        "target": "/documentos?equipo=coaches&categoria=reglamento-ofamo"
+      }
+    ]
+  },
+
+  "administracion": {
+    "title": "documentos administración",
+    "theme": "light-blue2",
+    "columns": 4,
+    "items": [
+      {
+        "category": "reglamentos padres",
+        "image": "/Logos/docAdmin/DOCUMENTOS ADMINISTRACION REGLAMENTOS PADRES.png",
+        "target": "/documentos?equipo=administracion&categoria=reglamentos-padres"
+      },
+      {
+        "category": "formatos inscripcion",
+        "image": "/Logos/docAdmin/DOCUMENTOS ADMINISTRACION FORMATOS DE INSCRIPCION.png",
+        "target": "/documentos?equipo=administracion&categoria=formatos-inscripcion"
+      },
+      {
+        "category": "reglamento managers",
+        "image": "/Logos/docAdmin/DOCUMENTOS ADMINISTRACION REGLAMENTO MANAGERS.png",
+        "target": "/documentos?equipo=administracion&categoria=reglamento-managers"
+      },
+      {
+        "category": "reglamento jugadores",
+        "image": "/Logos/docAdmin/DOCUMENTOS ADMINISTRACION REGLAMENTO DE JUGADORES.png",
+        "target": "/documentos?equipo=administracion&categoria=reglamento-jugadores"
+      }
+    ]
+  }
+}
